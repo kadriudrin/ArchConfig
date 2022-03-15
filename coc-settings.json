@@ -1,0 +1,22 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": ["typescript"],
+
+  "prettier.eslintIntegration": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "html",
+    "json",
+    "ruby",
+    "cpp",
+    "c",
+    "css",
+    "scss"
+  ],
+
+  "clangd.semanticHighlighting": true,
+
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.diagnostics": true
+}
