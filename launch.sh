@@ -8,5 +8,5 @@ if [ $($HOME/.config/bspwm/checkdual.sh) == 1 ] ; then
 	MONITOR=eDP1 polybar mainbar &
 else 
 	MONITOR=eDP1 polybar mainbar &
-	MONITOR=HDMI2 polybar secondarybar &
+	MONITOR=DP1 polybar secondarybar &
 fi
